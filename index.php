@@ -17,11 +17,11 @@ $pesan = "Silakan klik tautan di bawah ini untuk pergi ke halaman Home dan Berbe
 </head>
 <body>
     <div class="container">
-        <h1>SELAMAT DATANG DI SHOPEE</h1>
+        <h1>SELAMAT DATANG DI TOKO <?php echo htmlspecialchars($nama); ?></h1>
         <p>Halo <strong><?= htmlspecialchars($nama) ?></strong></p>
         <p><?php echo $pesan; ?></p>
         <div class="box">
-            <<a href="home.php">Halaman Home</a>
+            <a href="home.php">Halaman Home</a>
         </div>
     </div>
 </body>
