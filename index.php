@@ -1,7 +1,7 @@
 <?php
 // index.php
-$nama = "Peserta Praktik";
-$waktu = date("Y-m-d H:i:s");
+$nama = "Adhelia";
+$pesan = "Silakan klik tautan di bawah ini untuk pergi ke halaman Home dan Berbelanja.";
 ?>
 
 <!DOCTYPE html>
@@ -17,11 +17,11 @@ $waktu = date("Y-m-d H:i:s");
 </head>
 <body>
     <div class="container">
-        <h1>HAECHAN AND JUNGWOO , MARK SOLO</h1>
+        <h1>SELAMAT DATANG DI SHOPEE</h1>
         <p>Halo <strong><?= htmlspecialchars($nama) ?></strong></p>
+        <p><?php echo $pesan; ?></p>
         <div class="box">
-            <p>Waktu server: <code><?= $waktu ?></code></p>
-            <p>Dijalankan di <strong>Docker</strong> di Hugging Face Spaces ✅</p>
+            <<a href="home.php">Halaman Home</a>
         </div>
     </div>
 </body>
