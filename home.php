@@ -17,10 +17,10 @@ $pesan_home = "Anda berhasil navigasi dari halaman Index.";
 </head>
 <body>
     <div class="container">
-        <p>Ini adalah Halaman Home<p><br>
+        <p>Ini adalah Halaman Home<p>
         <h1><?php echo $judul; ?></h1>
         <p><?php echo $pesan_home; ?></p>
-        <p>Silakan klik tautan di bawah ini untuk kembali ke halaman Index<p><br>
+        <p>Silakan klik tautan di bawah ini untuk kembali ke halaman Index<p>
     </div>
         <a href="index.php">Halaman Index</a>
 
