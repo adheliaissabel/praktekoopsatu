@@ -17,7 +17,7 @@ $waktu = date("Y-m-d H:i:s");
 </head>
 <body>
     <div class="container">
-        <h1>HAECHAN AND JUNGWOO SOLO</h1>
+        <h1>HAECHAN AND JUNGWOO , MARK SOLO</h1>
         <p>Halo <strong><?= htmlspecialchars($nama) ?></strong></p>
         <div class="box">
             <p>Waktu server: <code><?= $waktu ?></code></p>
