@@ -8,7 +8,7 @@ $pesan = "Silakan klik tautan di bawah ini untuk pergi ke halaman Home dan Berbe
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Website PHP di Hugging Face</title>
+    <title>Tugas 1 OOP</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
         .container { max-width: 600px; margin: 0 auto; }
