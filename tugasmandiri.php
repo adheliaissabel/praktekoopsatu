@@ -11,8 +11,8 @@ class Buku {
         $this->tahun = $tahun;
     }
 }
-class Perpustakaan{
-    private $daftarbuku = [];
+class Perpustakaan {
+    private array $daftarBuku = []; // ← Properti DIJELASKAN dengan tipe array
 
     public function tambahBuku(Buku $buku) {
         $this->daftarBuku[] = $buku;
