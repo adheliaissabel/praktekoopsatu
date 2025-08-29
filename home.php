@@ -1,5 +1,4 @@
 <?php
-// index.php
 $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
 ?>
 <!DOCTYPE html>
