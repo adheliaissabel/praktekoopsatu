@@ -6,9 +6,9 @@ class Buku {
 
     // Constructor
     public function __construct($judul, $penulis, $tahun) {
-        $this->judul = $judul;<br>
-        $this->penulis = $penulis;<br>
-        $this->tahun = $tahun;<br>
+        $this->judul = $judul;
+        $this->penulis = $penulis;
+        $this->tahun = $tahun;
     }
 }
 class Perpustakaan{
