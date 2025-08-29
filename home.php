@@ -10,9 +10,9 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
     <title>Halaman Home</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #e6f0ff;
-            color: #003366;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffe6f0;
+            color: #660033;
             margin: 0;
             padding: 0;
         }
@@ -20,16 +20,16 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
         .container {
             max-width: 700px;
             margin: 80px auto;
-            background-color: #ffffff;
+            background-color: #fff0f5;
             padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 100, 0.1);
+            box-shadow: 0 4px 12px rgba(255, 20, 147, 0.2);
             text-align: center;
         }
 
         h1 {
-            color: #94035cff;
-            font-size: 28px;
+            color: #cc0066;
+            font-size: 30px;
             margin-bottom: 20px;
         }
 
@@ -43,20 +43,39 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
             margin: 8px;
             padding: 10px 20px;
             text-decoration: none;
-            background-color: #fb65ccff;
+            background-color: #ff66b2;
             color: white;
             border-radius: 6px;
             transition: background-color 0.3s ease;
         }
 
         a:hover {
-            background-color: hsla(330, 100%, 49%, 1.00);
+            background-color: #ff3385;
         }
+
+        .pertemuan-box {
+            background-color: #ffe0ec;
+            border: 1px solid #ff99cc;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px auto;
+            width: fit-content;
+            font-size: 16px;
+            color: #b30059;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
+        <p>Ini adalah Halaman Home</p>
         <h1><?php echo $judul; ?></h1>
+
+        <!-- Kotak Pertemuan -->
+        <div class="pertemuan-box">
+            <strong>Pertemuan 3</strong><br>
+            <span>29 Agustus 2025</span>
+        </div>
 
         <p>Silakan klik tautan di bawah ini untuk mengakses tugas-tugas:</p>
 
@@ -65,5 +84,6 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
         <a href="latihan3.php">Latihan 3</a><br>
         <a href="tugasmandiri.php">Tugas Mandiri</a>
     </div>
+
 </body>
 </html>
