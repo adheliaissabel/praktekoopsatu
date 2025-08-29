@@ -1,6 +1,6 @@
 <?php
 // index.php
-$judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
+$judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
 ?>
 <!DOCTYPE html>
 <html lang="id">
