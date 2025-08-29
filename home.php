@@ -43,14 +43,14 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
             margin: 8px;
             padding: 10px 20px;
             text-decoration: none;
-            background-color: #3399ff;
+            background-color: #fb65ccff;
             color: white;
             border-radius: 6px;
             transition: background-color 0.3s ease;
         }
 
         a:hover {
-            background-color: #1a75ff;
+            background-color: hsla(330, 100%, 49%, 1.00);
         }
     </style>
 </head>
@@ -60,10 +60,10 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
 
         <p>Silakan klik tautan di bawah ini untuk mengakses tugas-tugas:</p>
 
-        <a href="latihan1.php">Halaman Latihan 1</a><br>
-        <a href="latihan2.php">Halaman Latihan 2</a><br>
-        <a href="latihan3.php">Halaman Latihan 3</a><br>
-        <a href="tugasmandiri.php">Halaman Tugas Mandiri</a>
+        <a href="latihan1.php">Latihan 1</a><br>
+        <a href="latihan2.php">Latihan 2</a><br>
+        <a href="latihan3.php">Latihan 3</a><br>
+        <a href="tugasmandiri.php">Tugas Mandiri</a>
     </div>
 </body>
 </html>
