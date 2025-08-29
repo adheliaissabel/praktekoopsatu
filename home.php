@@ -25,6 +25,7 @@ $pesan_home = "Anda berhasil navigasi dari halaman Index.";
         <a href="latihan1.php">Halaman latihan 1</a><br>
         <a href="latihan2.php">Halaman latihan 2</a>
         <a href="latihan3.php">Halaman latihan 3</a>
+        <a href="tugasmandiri.php">Halaman Tugas Mandiri</a>
 
 </body>
 </html>
