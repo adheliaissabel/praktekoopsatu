@@ -16,7 +16,7 @@ class Produk {
     public function tampilkanInfo() {
         return "Nama Produk: $this->nama<br>
         Harga Produk: $this->harga<br>
-         Stok Produk: $this->stok";
+        Stok Produk: $this->stok";
     }
 
     // method beliproduk
@@ -26,7 +26,7 @@ class Produk {
         }
         $this->stok -= $jumlah;
         $totalHarga = $jumlah * $this->harga;
-        return "Pembelian berhasil.<br>
+        return "Pembelian berhasil<br>
         Jumlah: $jumlah.<br>
         Sisa stok: $this->stok.";
     }
@@ -38,12 +38,9 @@ $produk = new Produk("Buku", 30000, 10);
 // Menampilkan hasil
 echo "<h3>Latihan No 2</h3>";
 echo $produk->tampilkanInfo();
-echo "<br>";
-echo "<br>";
+echo "<br><br>";
 echo $produk->beliProduk(3);
-echo "<br>";
-echo "<br>";
-echo "Sisa Produk"
-echo "<br>";
+echo "<br><br>";
+echo "Sisa Produk<br>";
 echo $produk->tampilkanInfo();
 ?>
