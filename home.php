@@ -28,7 +28,7 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
         }
 
         h1 {
-            color: #0059b3;
+            color: #94035cff;
             font-size: 28px;
             margin-bottom: 20px;
         }
