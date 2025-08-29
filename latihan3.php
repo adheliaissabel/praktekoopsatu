@@ -14,7 +14,8 @@ class User {
     // Method untuk login
     public function login($inputUsername, $inputPassword) {
         if ($inputUsername = $this->username && $inputPassword = $this->password) {
-            return "Login berhasil! Selamat datang, $inputUsername.";
+            return "Login berhasil!<br>
+            Selamat datang $inputUsername.";
         } else {
             return "Login gagal! Username atau password salah.";
         }
@@ -28,6 +29,6 @@ $inputUsername = "admin";
 $inputPassword = "12345";
 
 // Menampilkan hasil login
-echo "<h3>Latihan No 3 - Mini Project Login</h3>";
+echo "<h3>Latihan No 3</h3>";
 echo $user->login($inputUsername, $inputPassword);
 ?>
