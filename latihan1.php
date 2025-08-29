@@ -7,13 +7,17 @@ class PersegiPanjang {
     // method untuk menghitung luas
     public function luas() {
         $hasil = $this->panjang * $this->lebar;
-        return "Panjang: $this->panjang, Lebar: $this->lebar, Luas: $hasil";
+        return "Panjang: $this->panjang,<br>
+        Lebar: $this->lebar,<br>
+        Luas: $hasil";
     }
 
     // method untuk menghitung keliling
     public function keliling() {
         $hasil = 2 * ($this->panjang + $this->lebar);
-        return "Panjang: $this->panjang, Lebar: $this->lebar, Keliling: $hasil";
+        return "Panjang: $this->panjang,<br>
+        Lebar: $this->lebar,<br>
+        Keliling: $hasil";
     }
 }
 
