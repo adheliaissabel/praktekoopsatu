@@ -1,17 +1,27 @@
 <?php
 class PersegiPanjang {
-    //properti
+    // properti
     public $panjang;
     public $lebar;
 
-    //method
+    // method untuk menghitung luas
     public function luas() {
         $hasil = $this->panjang * $this->lebar;
-        return "Panjang: $this->panjang, Lebar: $this->lebar, Hasil: $hasil; "}
+        return "Panjang: $this->panjang, Lebar: $this->lebar, Luas: $hasil";
+    }
+
+    // method untuk menghitung keliling
+    public function keliling() {
+        $hasil = 2 * ($this->panjang + $this->lebar);
+        return "Panjang: $this->panjang, Lebar: $this->lebar, Keliling: $hasil";
+    }
 }
 
 $hsl = new PersegiPanjang();
 $hsl->panjang = 10;
 $hsl->lebar = 5;
 
+// Menampilkan hasil
 echo $hsl->luas();
+echo "<br>";
+echo $hsl->keliling();
