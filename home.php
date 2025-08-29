@@ -67,10 +67,8 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
 </head>
 <body>
     <div class="container">
-        <p>Ini adalah Halaman Home</p>
         <h1><?php echo $judul; ?></h1>
 
-        <!-- Kotak Pertemuan -->
         <div class="pertemuan-box">
             <strong>Pertemuan 3</strong><br>
             <span>29 Agustus 2025</span>
