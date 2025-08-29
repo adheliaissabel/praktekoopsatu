@@ -13,16 +13,16 @@ class User {
 
     // Method untuk login
     public function login($inputUsername, $inputPassword) {
-    if ($inputUsername == $this->username && $inputPassword == $this->password) {
-        return "Login berhasil!<br>
-        Selamat datang $inputUsername.";
-    } else {
-        return "Login gagal! Username atau password salah.";
+        if ($inputUsername == $this->username && $inputPassword == $this->password) {
+            return "Login berhasil!<br>
+            Selamat datang $inputUsername.";
+        } else {
+            return "Login gagal! Username atau password salah.";
+        }
     }
-}
+} 
 
-
-// Simulasi login
+// Simulasi login 
 $user = new User();
 
 $inputUsername = "admin";
