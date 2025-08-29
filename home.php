@@ -7,7 +7,6 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Home</title>
     <style>
         body {
             font-family: "Times New Roman", Times, serif;
@@ -76,9 +75,6 @@ $judul = "Selamat Datang di Kumpulan Tugas ADHELIA ISSABEL";
             <strong>Pertemuan 3</strong><br>
             <span>29 Agustus 2025</span>
         </div>
-
-        <p>Silakan klik tautan di bawah ini untuk mengakses tugas-tugas:</p>
-
         <a href="latihan1.php">Latihan 1</a><br>
         <a href="latihan2.php">Latihan 2</a><br>
         <a href="latihan3.php">Latihan 3</a><br>
