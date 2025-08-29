@@ -22,7 +22,8 @@ $pesan_home = "Anda berhasil navigasi dari halaman Index.";
         <p><?php echo $pesan_home; ?></p>
         <p>Silakan klik tautan di bawah ini untuk kembali ke halaman Index<p>
     </div>
-        <a href="latihan1.php">Halaman latihan</a>
+        <a href="latihan1.php">Halaman latihan 1</a>
+        <a href="latihan2.php">Halaman latihan 2</a>
 
 </body>
 </html>
