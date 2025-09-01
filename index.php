@@ -43,8 +43,8 @@ $pesan = "Silakan klik tautan di bawah ini untuk pergi ke halaman Home Tugas";
     <div class="container">
         <h1>SELAMAT DATANG DI KUMPULAN TUGAS KULIAH</h1>
         <h4>Nama: <?php echo $nama; ?></h4>
-        <p>NIM: <?php echo $nim; ?></p>
-        <p><?php echo $pesan; ?></p>
+        <h4>NIM: <?php echo $nim; ?></h4>
+        <h5><?php echo $pesan; ?></h5>
         <div class="box">
             <a href="home.php">Home Tugas</a>
         </div>
