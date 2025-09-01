@@ -67,7 +67,7 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
 </head>
 <body>
     <div class="container">
-        <h1><?php echo $judul; ?></h1>
+        <h2><?php echo $judul; ?></h2>
 
         <div class="pertemuan-box">
             <strong>Pertemuan 3</strong><br>
