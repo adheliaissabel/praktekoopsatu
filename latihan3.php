@@ -1,7 +1,7 @@
 <?php
 class User {
     // Properti
-    private $username;
+    public $username;
     private $password;
 
     // Constructor
