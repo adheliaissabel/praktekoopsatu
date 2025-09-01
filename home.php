@@ -26,7 +26,7 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
             text-align: center;
         }
 
-        h1 {
+        h2 {
             color: #cc0066;
             font-size: 30px;
             margin-bottom: 20px;
