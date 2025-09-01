@@ -1,14 +1,15 @@
 <?php
 // index.php
-$nama = "ADHELIA";
-$pesan = "Silakan klik tautan di bawah ini untuk pergi ke halaman Home dan Berbelanja.";
+$nama = "ADHELIA ISSABEL";
+$nim = "H1101241001";
+$pesan = "Silakan klik tautan di bawah ini untuk pergi ke halaman Home Tugas";
 ?>
 
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Tugas 1 OOP</title>
+    <title>PEMBUKA TUGAS</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
         .container { max-width: 600px; margin: 0 auto; }
@@ -17,11 +18,12 @@ $pesan = "Silakan klik tautan di bawah ini untuk pergi ke halaman Home dan Berbe
 </head>
 <body>
     <div class="container">
-        <h1>SELAMAT DATANG DI SHOPEE</h1>
-        <h4>Halo <strong><?= htmlspecialchars($nama) ?></strong></h4>
+        <h1>SELAMAT DATANG DI KUMPULAN TUGAS KULIAH</h1>
+        <h4>Nama: $nama</h4>
+        <p>NIM: $nim</p>
         <p><?php echo $pesan; ?></p>
         <div class="box">
-            <a href="home.php">Halaman Home</a>
+            <a href="home.php">Home Tugas</a>
         </div>
     </div>
 </body>
