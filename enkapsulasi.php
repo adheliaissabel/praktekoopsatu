@@ -3,7 +3,7 @@
 class kendaraan
 {
   // property dengan hak akses private
-  protected $jenis_mesin = "AKA 748 TURBO JET NUKLIR";
+  protected $jenis_mesin = "KEREN CAPEE";
   public function tampilkan_mesin()
   {
     return $this->jenis_mesin;
