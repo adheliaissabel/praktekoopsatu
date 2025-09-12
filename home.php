@@ -1,5 +1,11 @@
 <?php
-//index
+// index
+
+// hasil merge (versi lokal + versi GitHub)
+echo "Ini dari lokal";
+echo "Ini dari GitHub";
+
+// judul halaman
 $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
 ?>
 <!DOCTYPE html>
@@ -62,7 +68,6 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
             font-size: 16px;
             color: #b30059;
         }
-
     </style>
 </head>
 <body>
@@ -79,6 +84,5 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
         <a href="tugasmandiri.php">Tugas Mandiri</a>
         <a href="praktek3.php">Tugas Mandiri</a>
     </div>
-
 </body>
 </html>
