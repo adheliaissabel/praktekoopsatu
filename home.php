@@ -82,7 +82,13 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
         <a href="latihan2.php">Latihan 2</a><br>
         <a href="latihan3.php">Latihan 3</a><br>
         <a href="tugasmandiri.php">Tugas Mandiri</a>
-        <a href="praktek3.php">Tugas Mandiri</a>
+    </div>
+    <div class="pertemuan-box">
+            <strong>Pertemuan 5</strong><br>
+            <span>12 September 2025</span>
+        </div>
+        <a href="praktek3.php">Latihan 1</a><br>
+        <a href="prakteksendiri5.php">Latihan Mandiri</a><br>
     </div>
 </body>
 </html>
