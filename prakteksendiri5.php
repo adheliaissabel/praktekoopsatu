@@ -1,36 +1,44 @@
 <?php
-class akun
+class Mahasiswa
 {
-  var $email;
-  var $username;
-  var $password;
+  var $nama;
+  var $nim;
+  var $prodi;
+  var $angkatan;
+  var $keterangan;
 
+  public function getKeterangan(){
+    return $this->keterangan;
+  }
+  public function __construct($nama, $nim, $prodi, $angkatan, $keterangan){
+    $this->nama= $nama;
+    $this->nim= $nim;
+    $this->prodi= $prodi;
+    $this->angkatan= $angkatan;
+    $this->keterangan=$keterangan;
+  }
 }
 
-$akun1 = new akun();
-$akun2 = new akun();
+$mhs1 = new Mahasiswa("Adhelia", "H1101241001", "Sistem Informasi", "2024", "Aktif");
+$mhs2 = new Mahasiswa("Gyraldine", "H1101241017", "Sistem Informasi", "2024", "Cuti");
+$mhs3 = new Mahasiswa("Sinta", "H1101241067", "Sistem Informasi", "2024", "Keluar");
 
-$akun1->username = "adheliaissabel";
-$akun1->email = "adheliaissabel@gmail.com";
-$akun1->password = "akun123";
+echo "Nama: " . $mhs1->nama . "\n" .
+     "NIM: " . $mhs1->nim . "\n" .
+     "Prodi: " . $mhs1->prodi . "\n" .
+     "Angkatan: " . $mhs1->angkatan . "\n" .
+     "Keterangan: " . $mhs1->getKeterangan() . "\n", "\n";
 
-$akun2->username ="alexsaissabel";
-$akun2->email = "alexsaissabel@gmail.com";
-$akun2->password = "akun234";
+echo "Nama: " . $mhs2->nama . "\n" .
+     "NIM: " . $mhs2->nim . "\n" .
+     "Prodi: " . $mhs2->prodi . "\n" .
+     "Angkatan: " . $mhs2->angkatan . "\n" .
+     "Keterangan: " . $mhs2->getKeterangan() . "\n", "\n";
 
-echo $akun1->email;
-echo "\n";
-echo $akun1->username;
-echo "\n";
-echo $akun1->password;
-echo "\n";
-echo "\n";
-
-echo $akun2->email;
-echo "\n";
-echo $akun2->username;
-echo "\n";
-echo $akun2->password;
-echo "\n";
+echo "Nama: " . $mhs3->nama . "\n" .
+     "NIM: " . $mhs3->nim . "\n" .
+     "Prodi: " . $mhs3->prodi . "\n" .
+     "Angkatan: " . $mhs3->angkatan . "\n" .
+     "Keterangan: " . $mhs3->getKeterangan() . "\n", "\n";
 
 ?>
