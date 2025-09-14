@@ -88,7 +88,7 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
             <span>12 September 2025</span>
         </div>
         <a href="praktek3.php">Latihan 1</a><br>
-        <a href="prakteksendiri5.php">Latihan Mandiri</a><br>
+        <a href="praktikum5.1.php">Praktikum 5.1</a><br>
     </div>
 </body>
 </html>
