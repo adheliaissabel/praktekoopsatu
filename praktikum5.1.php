@@ -27,14 +27,13 @@ echo "Nama: " . $mhs1->nama . "\n" .
      "NIM: " . $mhs1->nim . "\n" .
      "Prodi: " . $mhs1->prodi . "\n" .
      "Angkatan: " . $mhs1->angkatan . "\n" .
-     "Keterangan: " . $mhs1->getKeterangan() . "\n";
-echo "<br><br>";
+     "Keterangan: " . $mhs1->getKeterangan() . "\n", "\n";
 
 echo "Nama: " . $mhs2->nama . "\n".
      "NIM: " . $mhs2->nim . "\n" .
      "Prodi: " . $mhs2->prodi . "\n" .
      "Angkatan: " . $mhs2->angkatan . "\n" .
-     "Keterangan: " . $mhs2->getKeterangan() . "\n";
+     "Keterangan: " . $mhs2->getKeterangan() . "\n", "\n";
 
 echo "Nama: " . $mhs3->nama . "\n" .
      "NIM: " . $mhs3->nim . "\n" .
