@@ -115,6 +115,7 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
             <div class="link-group">
                 <a href="praktek3.php">Latihan 1</a>
                 <a href="praktikum5.1.php">Praktikum 5.1</a>
+                <a href="praktikum5.2.php">Praktikum 5.2</a>
             </div>
         </div>
     </div>
