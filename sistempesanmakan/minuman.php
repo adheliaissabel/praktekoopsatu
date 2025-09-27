@@ -1,5 +1,7 @@
 <?php
 namespace App\Model;
+
+use App\Model\Menu;
 //inheritance menu
 class Minuman extends Menu {
     public function __construct(string $nama, int $harga) {
