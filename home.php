@@ -129,6 +129,17 @@ $judul = "Eksplorasi Kode Bersama ADHELIA ISSABEL";
                 <a href="latihan6.php">Praktikum 6</a>
             </div>
         </div>
+
+        <!-- Pertemuan 7 -->
+        <div class="pertemuan">
+            <div class="pertemuan-box">
+                <strong>Pertemuan 7</strong><br>
+                <span>26 September 2025</span>
+            </div>
+            <div class="link-group">
+                <a href="index.php">Praktikum 6</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
