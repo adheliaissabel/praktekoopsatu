@@ -14,6 +14,6 @@ spl_autoload_register(function ($class) {
     if (file_exists($file)) {
         require $file;
     } else {
-        echo "Autoload gagal cari file: $file\n"; // debug
+        echo "Autoload gagal cari file: $file\n";
     }
 });

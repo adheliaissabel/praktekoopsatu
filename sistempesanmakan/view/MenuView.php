@@ -1,10 +1,10 @@
 <?php
 namespace App\View;
 
+use App\Model\Menu;
+
 class MenuView {
-    public function render(array $menu): void {
-        foreach ($menu as $item) {
-            echo $item . PHP_EOL;
-        }
+    public function render(Menu $menu) {
+        echo $menu . PHP_EOL;
     }
 }
