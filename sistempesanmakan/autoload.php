@@ -3,23 +3,19 @@
 
 spl_autoload_register(function ($class) {
     $prefix = "App\\";
-    $base_dir = __DIR__ . "/";
+    $base_dir = _DIR_ . "/App/";
 
-    // cek apakah class pakai prefix App\
     $len = strlen($prefix);
     if (strncmp($prefix, $class, $len) !== 0) {
-        return;
+        return; // bukan class App\
     }
 
-    // buang prefix "App\" biar relatif
     $relative_class = substr($class, $len);
-
-    // ganti \ dengan / jadi sesuai path folder
     $file = $base_dir . str_replace("\\", "/", $relative_class) . ".php";
 
     if (file_exists($file)) {
         require $file;
     } else {
-        echo "⚠️ Autoload gagal cari file: $file<br>";
+        die("⚠ Autoload gagal cari file: $file\n");
     }
 });
