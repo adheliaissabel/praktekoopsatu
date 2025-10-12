@@ -3,11 +3,10 @@ namespace App\Controller;
 
 use App\Repository\MenuRepository;
 use App\View\MenuView;
-use App\Traits\Loggable;  // <-- tambahkan ini
+use App\Traits\Loggable;
 
 class MenuController {
-    use Loggable;   // <-- tambahkan ini
-
+    use Loggable;
     private MenuRepository $repo;
     private MenuView $view;
 
@@ -16,13 +15,13 @@ class MenuController {
         $this->view = $view;
     }
 
-    public function seedData() {
-        $this->log("Seed data jalan");  // contoh pakai log
+    public function seedData(): void {
+        $this->log("Seed data jalan");
         echo "Seed data jalan\n";
     }
 
-    public function tampilkanMenu() {
-        $this->log("Tampilkan menu jalan");  // contoh pakai log
+    public function tampilkanMenu(): void {
+        $this->log("Tampilkan menu jalan");
         echo "Tampilkan menu jalan\n";
     }
 }
